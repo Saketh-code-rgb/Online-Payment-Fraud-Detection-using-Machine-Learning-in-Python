@@ -1,0 +1,5 @@
+X = data_new.drop(['isFraud', 'type', 'nameOrig', 'nameDest'], axis=1)
+y = data_new['isFraud']
+
+
+X.shape, y.shape
