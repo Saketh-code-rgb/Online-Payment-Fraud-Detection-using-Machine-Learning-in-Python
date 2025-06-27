@@ -1,0 +1,1 @@
+sns.barplot(x='type', y='amount', data=data)
