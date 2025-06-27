@@ -1,0 +1,2 @@
+plt.figure(figsize=(15, 6))
+sns.distplot(data['step'], bins=50)
