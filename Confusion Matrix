@@ -1,0 +1,8 @@
+from sklearn.metrics import ConfusionMatrixDisplay
+import matplotlib.pyplot as plt
+
+cm = ConfusionMatrixDisplay.from_estimator(models[1], X_test, y_test) 
+
+cm.plot(cmap='Blues') 
+
+plt.show()
